@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonar.Entities", "Sonar.Entities\Sonar.Entities.csproj", "{DF03D155-E4A0-4AE5-84D4-0D9F46FE12C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{FD1393D3-65C0-4084-9EC5-FBB1AC90A48F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonar.DAL", "Sonar.DAL\Sonar.DAL.csproj", "{446C57F1-43EE-4722-88D5-6E0DA3F45D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonar.Web", "Sonar.Web\Sonar.Web.csproj", "{B760B05A-6335-4E3D-A140-214AC8742995}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{5099AC1C-B920-47EC-9903-20E6418B03F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonar.BLL", "Sonar.BLL\Sonar.BLL.csproj", "{4FA3E1A0-FAB1-4782-87F4-A0F80076A648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonar.Framework", "Sonar.Framework\Sonar.Framework.csproj", "{D88E7D5E-3C71-420C-A96C-161946B9EC0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF03D155-E4A0-4AE5-84D4-0D9F46FE12C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF03D155-E4A0-4AE5-84D4-0D9F46FE12C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF03D155-E4A0-4AE5-84D4-0D9F46FE12C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF03D155-E4A0-4AE5-84D4-0D9F46FE12C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{446C57F1-43EE-4722-88D5-6E0DA3F45D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446C57F1-43EE-4722-88D5-6E0DA3F45D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446C57F1-43EE-4722-88D5-6E0DA3F45D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446C57F1-43EE-4722-88D5-6E0DA3F45D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B760B05A-6335-4E3D-A140-214AC8742995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B760B05A-6335-4E3D-A140-214AC8742995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B760B05A-6335-4E3D-A140-214AC8742995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B760B05A-6335-4E3D-A140-214AC8742995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA3E1A0-FAB1-4782-87F4-A0F80076A648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA3E1A0-FAB1-4782-87F4-A0F80076A648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA3E1A0-FAB1-4782-87F4-A0F80076A648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA3E1A0-FAB1-4782-87F4-A0F80076A648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88E7D5E-3C71-420C-A96C-161946B9EC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88E7D5E-3C71-420C-A96C-161946B9EC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88E7D5E-3C71-420C-A96C-161946B9EC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88E7D5E-3C71-420C-A96C-161946B9EC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{446C57F1-43EE-4722-88D5-6E0DA3F45D8B} = {FD1393D3-65C0-4084-9EC5-FBB1AC90A48F}
+		{4FA3E1A0-FAB1-4782-87F4-A0F80076A648} = {5099AC1C-B920-47EC-9903-20E6418B03F9}
+	EndGlobalSection
+EndGlobal
